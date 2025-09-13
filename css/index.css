@@ -1,0 +1,42 @@
+@import url(variables.css);
+
+/* Start Default Style  */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+a:hover {
+  color: var(--links-hover-color);
+}
+
+i {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Finish Default Style  */
