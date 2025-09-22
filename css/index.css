@@ -1,4 +1,5 @@
-@import url(variables.css);
+@import "../css/variables.css";
+@import "../fonts/05-font-faces-and-css-variables/fonts.css";
 
 /* Start Default Style  */
 
@@ -23,11 +24,11 @@ body {
 a {
   text-decoration: none;
   color: var(--dark-color);
-  transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 a:hover {
@@ -35,8 +36,8 @@ a:hover {
 }
 
 i {
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
 }
 
 /* Finish Default Style  */
