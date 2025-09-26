@@ -1,0 +1,45 @@
+/* Start Top Bar Styles  */
+
+.top-bar {
+  color: var(--dark-color);
+  background-color: var(--color-gray-100);
+  padding: 2rem 0;
+}
+
+.top-bar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar__menu{
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.top-bar__items {
+  padding: 0 1.5rem;
+}
+
+
+.top-bar__left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.top-bar__email,
+.top-bar__phone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.top-bar__email--icon,
+.top-bar__phone--icon {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+/* Finish Top Bar Styles  */
