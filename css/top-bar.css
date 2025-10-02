@@ -21,6 +21,9 @@
   padding: 0 1.5rem;
 }
 
+.top-bar__items:first-child {
+  padding-right: 0;
+}
 
 .top-bar__left {
   display: flex;
