@@ -56,14 +56,50 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
+/*>>>>>>>>>>>>>>>> Header Navbar right Side  */
+
+.header-navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-grow: 1;
+}
+
+.header-navbar__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 3rem;
+}
+
+.header-navbar__link {
+  position: relative;
+}
+
+.header-navbar__dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 24rem;
+  position: absolute;
+  background-color: aqua;
+  margin-top: 25px;
+  right: 0;
+  left: 0;
+}
+
+/*>>>>>>>>>>>>>>>> Header Navbar Left Side  */
 
 .header-navbar__left {
   display: flex;
   align-items: center;
+  justify-content: end;
   gap: 1rem;
+  flex-grow: 1;
 }
 
 .header-navbar__left .header-navbar__search , .header-navbar__shopping-card{
