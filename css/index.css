@@ -59,7 +59,7 @@ i {
   padding: 2rem 1rem;
 }
 
-/*>>>>>>>>>>>>>>>> Header Navbar right Side  */
+/*>>>>>>>>>>>>>>>> Start Header Navbar Right Side Style  */
 
 .header-navbar__right {
   display: flex;
@@ -67,6 +67,7 @@ i {
   gap: 1.5rem;
   flex-grow: 1;
 }
+
 
 .header-navbar__menu {
   display: flex;
@@ -76,8 +77,26 @@ i {
   gap: 3rem;
 }
 
+.header-navbar__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-500);
+}
+
 .header-navbar__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+}
+
+.header-navbar__link:hover {
+  color: var(--color-gray-500);
+}
+
+.hader-navbar__link-icon {
+  margin-right: 0.5rem;
 }
 
 .header-navbar__dropdown {
@@ -86,13 +105,15 @@ i {
   align-items: center;
   width: 24rem;
   position: absolute;
-  background-color: aqua;
   margin-top: 25px;
-  right: 0;
-  left: 0;
+  right: 200px;
+  
 }
 
-/*>>>>>>>>>>>>>>>> Header Navbar Left Side  */
+/*>>>>>>>>>>>>>>>> Finish Header Navbar Right Side Style  */
+
+
+/*>>>>>>>>>>>>>>>> Start Header Navbar Left Side Style  */
 
 .header-navbar__left {
   display: flex;
@@ -140,6 +161,8 @@ i {
   background-color: var(--white-color);
   color: var(--primary-color);
 }
+
+/*>>>>>>>>>>>>>>>> Finish Header Navbar Left Side Style  */
 
  /* Finish Navbar Style  */
 
