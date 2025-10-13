@@ -68,7 +68,6 @@ i {
   flex-grow: 1;
 }
 
-
 .header-navbar__menu {
   display: flex;
   align-items: center;
@@ -97,6 +96,8 @@ i {
 .hader-navbar__link-icon {
   margin-right: 0.5rem;
 }
+
+/*>>>>>>>>>>>>>>>> Finish Header Navbar Right Side Style  */
 
 /*>>>>>>>>>>>>>>>>  Start Dropdown Style  */
 
@@ -130,11 +131,7 @@ i {
   transition: all 0.5s ease;
 }
 
-/*>>>>>>>>>>>>>>>>  f=Finish Dropdown Style  */
-
-
-/*>>>>>>>>>>>>>>>> Finish Header Navbar Right Side Style  */
-
+/*>>>>>>>>>>>>>>>>  Finish Dropdown Style  */
 
 /*>>>>>>>>>>>>>>>> Start Header Navbar Left Side Style  */
 
