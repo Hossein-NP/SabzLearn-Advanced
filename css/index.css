@@ -3,7 +3,6 @@
 @import "./top-bar.css";
 
 /* Start Default Style  */
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -47,20 +46,17 @@ i {
   -webkit-user-select: none;
   user-select: none;
 }
-
 /* Finish Default Style  */
 
- /* Start Navbar Style  */
 
+ /* Start Navbar Style  */
 .header-navbar__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem 1rem;
 }
-
 /*>>>>>>>>>>>>>>>> Start Header Navbar Right Side Style  */
-
 .header-navbar__right {
   display: flex;
   align-items: center;
@@ -96,11 +92,10 @@ i {
 .hader-navbar__link-icon {
   margin-right: 0.5rem;
 }
-
 /*>>>>>>>>>>>>>>>> Finish Header Navbar Right Side Style  */
 
-/*>>>>>>>>>>>>>>>>  Start Dropdown Style  */
 
+/*>>>>>>>>>>>>>>>>  Start Dropdown Style  */
 .header-navbar__dropdown {
   width: 24rem;
   position: absolute;
@@ -130,11 +125,10 @@ i {
   font-size: 1.4rem;
   transition: all 0.5s ease;
 }
-
 /*>>>>>>>>>>>>>>>>  Finish Dropdown Style  */
 
-/*>>>>>>>>>>>>>>>> Start Header Navbar Left Side Style  */
 
+/*>>>>>>>>>>>>>>>> Start Header Navbar Left Side Style  */
 .header-navbar__left {
   display: flex;
   align-items: center;
@@ -181,10 +175,21 @@ i {
   background-color: var(--white-color);
   color: var(--primary-color);
 }
-
 /*>>>>>>>>>>>>>>>> Finish Header Navbar Left Side Style  */
-
  /* Finish Navbar Style  */
+
+
+/* Start Lnading Style  */
+.landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../images/landingIcones/background_landing.jfif) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--white-color);
+  padding: 9rem 0;
+  text-align: center;
+}
+/* Finish Lnading Style  */
+
 
 
 
