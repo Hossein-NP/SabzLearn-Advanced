@@ -244,6 +244,15 @@ i {
   align-items: center;
 }
 
+.landing-status__items span:nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.landing-status__items span:nth-child(3) {
+  font-size: 1.5rem;
+}
+
 .landing-status__icon {
   color: var(--white-color);
   width: 8rem;
