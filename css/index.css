@@ -271,12 +271,40 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+
+.courses-head__right::after {
+   content: "";
+  display: block;
+  width: 5rem;
+  height: 0.5rem;
+  border-radius: 2rem;
+  transform: rotate(-85deg);
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 25px;
+  right: -45px;
 }
 
 .courses-head__title {
   font-size: var(--fs-h3);
   line-height: var(--lh-tight);
   font-weight: 700;
+  position: relative;
+  z-index: 10;
+}
+
+.courses-head__title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16rem;
+  height: 1.5rem;
+  background-color: var(--primary-color);
+  z-index: -5;
+  top: 12px;
+  opacity: 0.7;
 }
 
 .courses-head__text {
@@ -296,11 +324,13 @@ i {
   color: var(--white-color);
   padding: 0.5rem 0.5rem;
   border-radius: 0.5rem;
+  border: 1px  solid var(--primary-color);
   transition: all 0.5s ease;
 }
 
 .courses-head__link:hover {
-  color: var(--white-color);
+  color: var(--primary-color);
+  background-color: var(--white-color);
 }
 /* Finish courses section style  */
 
