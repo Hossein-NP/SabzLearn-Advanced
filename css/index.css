@@ -262,7 +262,7 @@ i {
 }
 /* Finish Lnading Style  */
 
-/* Start courses style  */
+/* Start courses section style  */
 .courses {
   margin: 5rem 0;
 }
@@ -273,10 +273,36 @@ i {
   justify-content: space-between;
 }
 
-.courses-head__right {
-  font-size: clamp();
+.courses-head__title {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-tight);
+  font-weight: 700;
 }
-/* Finish courses style  */
+
+.courses-head__text {
+  font-size: var(--fs-small);
+  line-height: var(--lh-normal);
+}
+
+.courses-head__link {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-loose);
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.courses-head__link:hover {
+  color: var(--white-color);
+}
+/* Finish courses section style  */
 
 
 
