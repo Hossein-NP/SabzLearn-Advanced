@@ -1,6 +1,7 @@
 @import "../css/variables.css";
 @import "../fonts/05-font-faces-and-css-variables/fonts.css";
 @import "./top-bar.css";
+@import "./typographic-scale.css";
 
 /* Start Default Style  */
 html {
@@ -260,6 +261,23 @@ i {
   margin-bottom: 2rem;
 }
 /* Finish Lnading Style  */
+
+/* Start courses style  */
+.courses {
+  margin: 5rem 0;
+}
+
+.courses-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courses-head__right {
+  font-size: clamp();
+}
+/* Finish courses style  */
+
 
 
 
