@@ -5,5 +5,10 @@
   --color-gray-100: #f0f2f7;
   --color-gray-500: #7f8187;
   --primary-font: IRANSans;
+  --fn-ir-ultralight: IRANSans_UltraLight;
+  --fn-ir-medium: IRANSans_Medium;
+  --fn-ir-light: IRANSans_Light;
+  --fn-ir-bold: IRANSans_Bold;
+  --fn-ir-black: IRANSans_Black;
   --links-hover-color: #1e53f0;
 }

@@ -360,9 +360,10 @@ i {
   font-size: var(--fs-h4);
   line-height: var(--lh-tight);
   font-weight: 700;
+  color: var(--dark-color);
 }
 
-.courses-box__rating-teacher {
+.courses-box__rating-teacher, .courses-box__status {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -374,10 +375,29 @@ i {
   gap: 0.5rem;
 }
 
-.courses-box__teacher-link {
+.courses-box__teacher-icon, .courses-box__user-icon {
+  color: var(--color-gray-500);
+  font-size: var(--fs-h3);
+}
+
+.courses-box__teacher-link, .courses-box__users-text {
   font-size: var(--fs-h4);
   line-height: var(--lh-tight);
+  color: var(--dark-color);
+  font-family: var(--fn-ir-medium);
+}
 
+.courses-box__rating-img {
+  margin: -0.2rem;
+}
+
+.courses-box__status {
+  margin: 1rem 0;
+}
+
+.courses-box__price {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-tight);
 }
 /*>>>>>>>>>>>>>>>> Finish courses content styles */
 
