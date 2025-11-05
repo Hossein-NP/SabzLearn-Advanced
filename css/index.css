@@ -265,7 +265,7 @@ i {
 
 /* Start courses section style  */
 .courses {
-  margin: 5rem 0;
+  margin-top: 5rem;
 }
 /*>>>>>>>>>>>>>>>> Start courses head styles */
 .courses-head__link {
@@ -291,11 +291,14 @@ i {
 /*>>>>>>>>>>>>>>>> Finish courses head styles */
 
 /*>>>>>>>>>>>>>>>> Start courses content styles */
+.courses-content {
+  margin-top: 2rem;
+}
+
 .courses-box {
   background-color: var(--white-color);
   box-shadow: 0 0 20px rgba(162, 172, 185, 0.5);
   border-radius: 1rem;
-  margin: 3rem 0;
   overflow: hidden;
   transition: all 0.5s ease;
 }
@@ -378,8 +381,15 @@ i {
 /* Finish courses section style  */
 
 /* Start help section style  */
+.helper-section {
+  margin-top: 5rem;
+}
+
+.helper-section__content {
+  margin-top: 2rem;
+}
+
 .helper-section__box {
-  margin: 2rem 0;
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 2rem 1rem;
@@ -410,8 +420,23 @@ i {
   line-height: var(--lh-normal);
   color: var(--color-gray-800);
 }
-
 /* Finish help section style  */
+
+/* Start popular courses style  */
+.popular-courses {
+  margin-top: 5rem;
+}
+/* Finish popular courses style  */
+
+/* Start pre-sell courses style  */
+.presell-courses {
+  margin-top: 5rem;
+}
+/* Finish pre-sell courses style  */
+
+
+
+
 
 
 

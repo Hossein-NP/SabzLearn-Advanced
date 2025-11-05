@@ -6,7 +6,7 @@
 }
 
 .section-head__title::after {
-   content: "";
+  content: "";
   display: block;
   width: 5rem;
   height: 0.5rem;
