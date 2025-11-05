@@ -43,4 +43,5 @@
 .section-head__subtitle  {
   font-size: var(--fs-h4);
   line-height: var(--lh-normal);
+  color: var(--color-gray-500);
 }
