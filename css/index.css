@@ -2,6 +2,7 @@
 @import "../fonts/05-font-faces-and-css-variables/fonts.css";
 @import "./top-bar.css";
 @import "./typographic-scale.css";
+@import "./section-title.css";
 
 /* Start Default Style  */
 html {
@@ -267,53 +268,6 @@ i {
   margin: 5rem 0;
 }
 /*>>>>>>>>>>>>>>>> Start courses head styles */
-.courses-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-.courses-head__right::after {
-   content: "";
-  display: block;
-  width: 5rem;
-  height: 0.5rem;
-  border-radius: 2rem;
-  transform: rotate(-85deg);
-  background-color: var(--primary-color);
-  position: absolute;
-  top: 25px;
-  right: -35px;
-}
-
-.courses-head__title {
-  font-size: var(--fs-h3);
-  line-height: var(--lh-tight);
-  font-weight: 700;
-  position: relative;
-  z-index: 10; 
-}
-
-.courses-head__title::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  max-width: 25rem;
-  height: 1.5rem;
-  background-color: var(--primary-color);
-  z-index: -5;
-  bottom: 0;
-  right: 0;
-  opacity: 0.5;
-}
-
-.courses-head__text {
-  font-size: var(--fs-small);
-  line-height: var(--lh-normal);
-}
-
 .courses-head__link {
   font-size: var(--fs-h4);
   line-height: var(--lh-loose);
@@ -339,10 +293,15 @@ i {
 /*>>>>>>>>>>>>>>>> Start courses content styles */
 .courses-box {
   background-color: var(--white-color);
-  box-shadow: 0 0 20px rgba(162, 172, 185, 0.3);
+  box-shadow: 0 0 20px rgba(162, 172, 185, 0.5);
   border-radius: 1rem;
   margin: 3rem 0;
   overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.courses-box:hover {
+  transform: translateY(-0.5rem);
 }
 
 .courses-box__img {
@@ -384,7 +343,7 @@ i {
   font-size: var(--fs-h4);
   line-height: var(--lh-tight);
   color: var(--dark-color);
-  font-family: var(--fn-ir-medium);
+  font-family: var(--primary-font);
 }
 
 .courses-box__rating-img {
@@ -398,6 +357,22 @@ i {
 .courses-box__price {
   font-size: var(--fs-h4);
   line-height: var(--lh-tight);
+  color: var(--dark-color);
+}
+
+.courses-box__footer {
+  border-top: 1px solid var(--color-gray-100);
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-box__footer-link {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 /*>>>>>>>>>>>>>>>> Finish courses content styles */
 
