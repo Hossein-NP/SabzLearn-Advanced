@@ -394,6 +394,7 @@ i {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 2rem 1rem;
   display: flex;
+  margin-top: 1rem;
   align-items: center;
 }
 
