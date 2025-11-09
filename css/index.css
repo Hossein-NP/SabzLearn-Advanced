@@ -427,6 +427,10 @@ i {
 .popular-courses {
   margin-top: 5rem;
 }
+
+.popular-courses__content .courses-box {
+  margin: 0 0.75rem;
+}
 /* Finish popular courses style  */
 
 /* Start pre-sell courses style  */
