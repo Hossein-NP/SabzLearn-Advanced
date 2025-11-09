@@ -424,7 +424,7 @@ i {
 /* Finish help section style  */
 
 /* Start popular courses style  */
-.popular-courses, .presell-courses__content {
+.popular-courses {
   margin-top: 5rem;
 }
 
