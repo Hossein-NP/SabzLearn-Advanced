@@ -457,6 +457,34 @@ i {
 }
 /* Finish pre-sell courses style  */
 
+/* Start articles styles  */
+.articles {
+  margin-top: 5rem;
+}
+/*>>>>>>>>>>>>>>>> Start courses head styles */
+.articles-head__link {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-loose);
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px  solid var(--primary-color);
+  transition: all 0.5s ease;
+}
+
+.articles-head__link:hover {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+}
+/* Finish articles styles  */
+
+
 
 
 
