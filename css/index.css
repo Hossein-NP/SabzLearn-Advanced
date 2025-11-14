@@ -461,7 +461,7 @@ i {
 .articles {
   margin-top: 5rem;
 }
-/*>>>>>>>>>>>>>>>> Start courses head styles */
+
 .articles-head__link {
   font-size: var(--fs-h4);
   line-height: var(--lh-loose);
@@ -481,6 +481,60 @@ i {
 .articles-head__link:hover {
   color: var(--primary-color);
   background-color: var(--white-color);
+}
+
+.articles-card {
+  padding-top: 1.5rem;
+  box-shadow: 0 0 20px rgba(162, 172, 185, 0.5);
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+
+.articles-card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.articles-card__img {
+  display: block;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.articles-card__content {
+  padding: 1rem 1.5rem;
+}
+
+.articles-card__link {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-tight);
+  font-weight: 700;
+  color: var(--dark-color);
+}
+
+.articles-card__sub {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-tight);
+  color: var(--dark-color);
+  font-family: var(--primary-font);
+}
+
+.articles-card__btn {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-loose);
+  font-weight: 100;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  padding: 0.5rem 0.5rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  transition: all 0.5s ease;
+}
+
+.articles-card__btn:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
 }
 /* Finish articles styles  */
 
