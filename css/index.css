@@ -538,6 +538,55 @@ i {
 }
 /* Finish articles styles  */
 
+/* Start footr styles  */
+.footer {
+  margin-top: 5rem;
+}
+.footer-widgets {
+  background-color: var(--color-gray-100);
+  border-radius: 1rem;
+  padding: 2rem 3.5rem;
+}
+
+.footer-widgets__item {
+  text-align: right;
+  color: var(--color-gray-900);
+}
+
+.footer-widgets__title {
+  font-size: var(--fs-h3);
+  font-weight: bold;
+}
+
+.footer-widgets__text, .footer-widgets__links {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+.footer-widgets__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-widgets__course {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.footer__copyright {
+  background-color: var(--color-gray-100);
+  text-align: center;
+  margin-top: 5rem;
+  padding: 3rem 0;
+  color: var(--color-gray-900);
+}
+/* Finish footr styles  */
+
+
+
 
 
 
