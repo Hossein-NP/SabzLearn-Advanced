@@ -1,0 +1,45 @@
+/* Start Default Style  */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  color: var(--links-hover-color);
+}
+
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  -webkit-user-select: none;
+  user-select: none;
+}
+/* Finish Default Style  */

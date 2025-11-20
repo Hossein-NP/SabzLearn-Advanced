@@ -1,0 +1,128 @@
+ /* Start Navbar Style  */
+.header-navbar__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+/*>>>>>>>>>>>>>>>> Start Header Navbar Right Side Style  */
+.header-navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-grow: 1;
+}
+
+.header-navbar__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 3rem;
+}
+
+.header-navbar__items {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  position: relative;
+}
+
+.header-navbar__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-navbar__link:hover {
+  color: var(--color-gray-500);
+}
+
+.hader-navbar__link-icon {
+  margin-right: 0.5rem;
+}
+/*>>>>>>>>>>>>>>>> Finish Header Navbar Right Side Style  */
+
+
+/*>>>>>>>>>>>>>>>>  Start Dropdown Style  */
+.header-navbar__dropdown {
+  width: 24rem;
+  position: absolute;
+  margin-top: 2rem;
+  background-color: var(--white-color);
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 10px 0  rgba(0, 0, 0, 0.12);
+  padding: 1rem 0;
+  border-radius: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.header-navbar__items:hover .header-navbar__dropdown {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 2.5rem;
+}
+
+.header-navbar__dropdown-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  transition: all 0.5s ease;
+}
+/*>>>>>>>>>>>>>>>>  Finish Dropdown Style  */
+
+
+/*>>>>>>>>>>>>>>>> Start Header Navbar Left Side Style  */
+.header-navbar__left {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.header-navbar__left .header-navbar__search , .header-navbar__shopping-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.header-navbar__left .header-navbar__search > .header-navbar__search-icon  {
+  color: var(--white-color);
+  font-size: 2rem;
+}
+
+.header-navbar__left .header-navbar__shopping-card {
+  background-color: var(--color-gray-100);
+}
+
+.header-navbar__left .header-navbar__shopping-card > .header-navbar__shopping-icon {
+  color: var(--dark-color);
+}
+.header-navbar__left .header-navbar__profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transition: all 0.5s ease;
+}
+
+.header-navbar__left .header-navbar__profile:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+/*>>>>>>>>>>>>>>>> Finish Header Navbar Left Side Style  */
+ /* Finish Navbar Style  */
