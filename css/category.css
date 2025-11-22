@@ -103,6 +103,10 @@
   color: var(--links-hover-color);
 }
 
+.courses-top-bar__selection-items:last-child {
+  margin-bottom: 0;
+}
+
 /* Left  */
 .courses-top-bar__form {
   position: relative;
