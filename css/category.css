@@ -79,7 +79,7 @@
   position: absolute;
   z-index: 999;
   background-color: var(--white-color);
-  padding: 0.5rem 0.2rem;
+  padding: 0.5rem 0;
   border-bottom: 2px solid var(--primary-color);
   border-radius: 0.5rem;
   opacity: 0;
@@ -97,6 +97,12 @@
   cursor: pointer;
   transition: all 0.5s ease;
   margin-bottom: 0.5rem;
+  padding: 0 0.5rem;
+  color: var(--dark-color);
+}
+
+.courses-top-bar__selection-items--active {
+  background-color: var(--color-gray-100);
 }
 
 .courses-top-bar__selection-items:hover {
