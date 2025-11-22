@@ -84,6 +84,7 @@
   border-radius: 0.5rem;
   opacity: 0;
   visibility: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease;
 }
 
@@ -96,8 +97,8 @@
   font-size: 1.3rem;
   cursor: pointer;
   transition: all 0.5s ease;
-  margin-bottom: 0.5rem;
-  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
   color: var(--dark-color);
 }
 
@@ -106,7 +107,7 @@
 }
 
 .courses-top-bar__selection-items:hover {
-  color: var(--links-hover-color);
+  background-color: var(--color-gray-100);
 }
 
 .courses-top-bar__selection-items:last-child {
