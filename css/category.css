@@ -141,7 +141,9 @@
   font-size: 1.5rem;
 }
 
-/* Pagination  */
+/* Finish courses top bar section  */
+
+/* Start Pagination  Styles */
 .courses-pagination {
   display: flex;
   align-items: center;
@@ -182,4 +184,4 @@
   background-color: var(--primary-color);
   color: var(--white-color);
 }
-/* Finish courses top bar section  */
+/* Finish Pagination  Styles */
