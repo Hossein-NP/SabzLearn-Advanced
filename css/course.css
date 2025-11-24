@@ -8,3 +8,40 @@
 @import "./footer.css";
 @import "./course-box.css";
 @import "./pagination.css";
+
+/* Start breascrumb styles  */
+.breadcrumb-content {
+  background-color: var(--color-gray-100);
+  border-radius: 1rem;
+  padding: 2rem 3.5rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.breadcrumb-content__home-content-icon {
+  background-color: var(--white-color);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
+.breadcrumb-content__list {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.breadrumb-content__item {
+  margin-left: 1rem;
+}
+
+.breadcrumb-content__link {
+  display: flex;
+  align-items: center;
+}
+/* Finish breascrumb styles  */
+
