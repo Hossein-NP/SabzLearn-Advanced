@@ -58,7 +58,7 @@
 
 /* Start course info styles  */
 .course-info {
-  margin: 2rem 0 0;
+  margin: 2rem 0 4rem;
 }
 
 .course-info__right {
@@ -70,9 +70,10 @@
   line-height: var(--lh-normal);
   background-color: var(--primary-color);
   color: var(--white-color);
-  padding: 0.2rem;
+  padding: 0.3rem;
   transition: all 0.5s ease;
   border: 1px solid var(--primary-color);
+  border-radius: 0.3rem;
 }
 
 .course-info__category-link:hover {
@@ -108,6 +109,13 @@
 
 .course-info__social-media-icon {
   font-size: 2rem;
+}
+
+.course-info__video {
+  display: block;
+  position: relative;
+  right: 23px;
+  border-radius: 1rem;
 }
 /* Finish course info styles  */
 
