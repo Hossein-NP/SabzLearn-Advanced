@@ -13,7 +13,7 @@
 .breadcrumb-content {
   background-color: var(--color-gray-100);
   border-radius: 1rem;
-  padding: 2rem 3.5rem;
+  padding: 1rem 3.5rem;
   display: flex;
   align-items: center;
 
@@ -21,12 +21,17 @@
 
 .breadcrumb-content__home-content-icon {
   background-color: var(--white-color);
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
+}
+
+.breadrumb-content__home-icon {
+  font-size: 2rem;
+  color: var(--color-gray-500);
 }
 
 .breadcrumb-content__list {
@@ -36,12 +41,13 @@
 }
 
 .breadrumb-content__item {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .breadcrumb-content__link {
   display: flex;
   align-items: center;
+  font-size: var(--fs-h4);
 }
 /* Finish breascrumb styles  */
 
