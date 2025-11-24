@@ -56,3 +56,59 @@
 }
 /* Finish breadcrumb styles  */
 
+/* Start course info styles  */
+.course-info {
+  margin: 2rem 0 0;
+}
+
+.course-info__right {
+  padding-right: 3.5rem;
+}
+
+.course-info__category-link {
+  font-size: var(--fs-body);
+  line-height: var(--lh-normal);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.2rem;
+  transition: all 0.5s ease;
+  border: 1px solid var(--primary-color);
+}
+
+.course-info__category-link:hover {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  
+}
+
+.course-info__title {
+  margin: 1rem 0;
+  font-size: var(--fs-h2);
+  font-weight: bold;
+  color: var(--color-gray-800);
+  line-height: var(--lh-normal);
+}
+
+.course-info__discrription {
+  color: var(--color-gray-800);
+  font-size: var(--fs-h4);
+  line-height: var(--lh-normal);
+  margin-bottom: 0;
+}
+
+.course-info__social-media-items {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.course-info__social-media-link {
+  margin-left: 1rem;
+}
+
+.course-info__social-media-icon {
+  font-size: 2rem;
+}
+/* Finish course info styles  */
+
+
