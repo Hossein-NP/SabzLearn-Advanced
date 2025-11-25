@@ -149,6 +149,7 @@
 }
 /* Finish course main body styles  */
 
+/* Start progress bar styles  */
 .course-progress {
   background-color: var(--color-gray-100);
   padding: 2rem 1.5rem;
@@ -167,3 +168,4 @@
 .progress-bar {
   background-color: var(--primary-color) !important;
 }
+/* Finish progress bar styles  */
