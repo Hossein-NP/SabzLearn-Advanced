@@ -178,3 +178,43 @@
   background-color: var(--primary-color) !important;
 }
 /* Finish progress bar styles  */
+
+/* Start course introduction styles  */
+.course-introduction {
+  margin: 3rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  padding: 2rem 3rem;
+}
+
+.course-introduction__items-img {
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+.course-introduction__cap {
+  color: var(--color-gray-800);
+  font-size: var(--fs-h4);
+  margin: 2rem 0;
+}
+
+.course-introduction__btns {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.course-introduction__btn {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.course-introduction__btn:hover {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+}
