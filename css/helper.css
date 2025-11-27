@@ -1,0 +1,42 @@
+/* Start help section style  */
+.helper-section {
+  margin-top: 5rem;
+}
+
+.helper-section__content {
+  margin-top: 2rem;
+}
+
+.helper-section__box {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem 1rem;
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.helper-section__box-icon {
+  font-size: 5.5rem;
+  margin-left: 1rem;
+}
+
+.helper-section__box-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.helper-section__box-title {
+  font-family: var(--primary-font);
+  font-size: var(--fs-h3);
+  line-height: var(--lh-tight);
+  color: var(--color-gray-900);
+}
+
+.helper-section__box-subtitle {
+  font-family: var(--primary-font);
+  font-size: var(--fs-h4);
+  line-height: var(--lh-normal);
+  color: var(--color-gray-800);
+}
+/* Finish help section style  */

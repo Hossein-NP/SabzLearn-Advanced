@@ -8,6 +8,7 @@
 @import "./footer.css";
 @import "./course-box.css";
 @import "./pagination.css";
+@import "./helper.css";
 
 /* Start breadcrumb styles  */
 .breadcrumb-content {
