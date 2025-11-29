@@ -218,3 +218,49 @@
   color: var(--primary-color);
   background-color: var(--white-color);
 }
+/* Finish course introduction styles  */
+
+/* Start course accordion styles  */
+.course-accoordion {
+  background-color: #F5F5F5;
+  border-radius: 1rem;
+  margin-top: -1.5rem;
+  border: 1px solid transparent;
+  margin-bottom: 5rem;
+}
+
+.course-accordion--open {
+  border-color: #E5E5E5B2;
+}
+
+.course-accordion__header {
+  padding: 2rem 3.5rem;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: var(--color-gray-800);
+  font-size: 2rem;
+}
+
+.course-accordion__header-title {
+  color: var(--color-gray-800);
+  font-size: var(--fs-h3);
+}
+.course-accordion--open  .course-accordion__header-title {
+  color: var(--primary-color);
+}
+
+
+.course-accordion__body {
+  padding: 0 3.5rem 2rem;
+  display: none;
+  color: var(--color-gray-800);
+}
+
+.course-accordion--open > .course-accordion__body {
+  display: block;
+}
+
+/* Finish course accordion styles  */
+
+
