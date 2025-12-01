@@ -8,10 +8,10 @@
 .top-bar__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
+  padding: 0 0.75rem;
 }
 
+/* >>>Top bar right styles  */
 .top-bar__menu{
   display: flex;
   font-size: 1.5rem;
@@ -19,10 +19,12 @@
 
 .top-bar__items {
   padding: 0 1.5rem;
+  position: relative;
 }
 
 .top-bar__link {
   color: var(--text-white);
+  font-size: var(--fs-h4);
 }
 .top-bar__link:hover {
   color: var(--text-white);
@@ -32,6 +34,7 @@
   padding-right: 0;
 }
 
+/* >>>Top bar left styles  */
 .top-bar__contact-info {
   display: flex;
   align-items: center;
