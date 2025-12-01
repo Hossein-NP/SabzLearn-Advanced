@@ -33,11 +33,13 @@
 /* >>>Top bar left styles  */
 .top-bar__contact-info {
   gap: 2rem;
+  margin-bottom: 0;
 }
 
 .top-bar__email,
 .top-bar__phone {
   gap: 0.5rem;
+  color: var(--text-white);
 }
 
 .top-bar__email--icon,
