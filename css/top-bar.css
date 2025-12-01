@@ -6,20 +6,16 @@
 }
 
 .top-bar__content {
-  display: flex;
-  justify-content: space-between;
   padding: 0 0.75rem;
 }
 
 /* >>>Top bar right styles  */
 .top-bar__menu{
-  display: flex;
   font-size: 1.5rem;
 }
 
 .top-bar__items {
   padding: 0 1.5rem;
-  position: relative;
 }
 
 .top-bar__link {
@@ -36,23 +32,17 @@
 
 /* >>>Top bar left styles  */
 .top-bar__contact-info {
-  display: flex;
-  align-items: center;
   gap: 2rem;
-  font-size: 1.5rem;
 }
 
 .top-bar__email,
 .top-bar__phone {
-  display: flex;
-  align-items: center;
   gap: 0.5rem;
 }
 
 .top-bar__email--icon,
 .top-bar__phone--icon {
   color: var(--text-white);
-  font-size: 2rem;
 }
 
 /* Finish Top Bar Styles  */
