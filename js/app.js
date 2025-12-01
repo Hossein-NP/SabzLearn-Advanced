@@ -1,8 +1,19 @@
 // Accordion handler
-let acHeader = document.querySelector(".course-accordion__header")
+const accordions = document.querySelectorAll('.course-accordion');
 
-function openHandler() {
-  document.querySelector(".course-accordion").classList.toggle("course-accordion--open")
-}
+accordions.forEach(item => {
+  const header = item.querySelector('.course-accordion__header');
+  const icon = item.querySelector('.course-accordion__icon');
 
-acHeader.addEventListener("click", openHandler())
+  function toggleAccordion() {
+    accordions.forEach(acc => {
+      if (acc !== item) {
+        acc.classList.remove('course-accordion--open');
+      }
+    });
+    item.classList.toggle('course-accordion--open');
+  }
+
+  header.addEventListener('click', toggleAccordion);
+  icon.addEventListener('click', toggleAccordion);
+});
