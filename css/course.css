@@ -221,6 +221,10 @@
 /* Finish course introduction styles  */
 
 /* Start course accordion styles  */
+.course-accordion__section {
+  margin-top: 4rem;
+}
+
 .course-accordion {
   background-color: #F5F5F5;
   border-radius: 1rem;
