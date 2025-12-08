@@ -311,4 +311,36 @@
 
 /* Finish course accordion styles  */
 
+/* Start teacher styles  */
+.teacher-details {
+  background-color: var(--white-color);
+  padding: 1.5rem 3rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  border-radius: 0.5rem;
+}
+
+.teacher-details__header-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.teacher-details__header-title {
+  color: var(--secondary-color);
+}
+
+.teacher-details__header-left {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.teacher-details__footer  {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* Finish teacher styles  */
+
 
