@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    
+
     <svg class="d-none">
       <symbol id="minutes"  fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  x="0px" y="0px" viewBox="0 0 511.992 511.992" style="enable-background:new 0 0 511.992 511.992;" xml:space="preserve" width="80" height="80">
                 <g id="XMLID_806_">
@@ -76,7 +76,7 @@
     <header class="header">
 
       <!-- Top Bar  -->
-      <div class="top-bar">
+      <div class="top-bar d-none d-lg-block">
         <div class="container-fluid">
           <div class="top-bar__content d-flex justify-content-between">
 
@@ -93,16 +93,21 @@
             </div>
 
             <!-- Top bar right for mobile  -->
-            <div class="top-bar__right d-flex d-lg-none align-items-center">
-              <ul class="top-bar__menu d-flex align-items-center justify-content-center flex-column overflow-hidden">
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش HTML</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش CSS</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش JAVASCRIPT</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش REACT</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش BOOTSTRAP</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش PYTHON</a></li>
-              </ul>
+            <div class="top-bar__right d-lg-none">
+              <div class="credits-wrapper">
+                <ul class="credits-list">
+                  <li class="top-bar__link">آموزش HTML</li>
+                  <li class="top-bar__link">آموزش CSS</li>
+                  <li class="top-bar__link">آموزش JAVASCRIPT</li>
+                  <li class="top-bar__link">آموزش REACT</li>
+                  <li class="top-bar__link">آموزش BOOTSTRAP</li>
+                  <li class="top-bar__link">آموزش PYTHON</li>
+                </ul>
+              </div>
             </div>
+
+
+          </div>
 
             <!-- Top bar left  -->
             <address class="top-bar__contact-info d-flex align-items-center d-none d-lg-flex">
@@ -117,6 +122,18 @@
             </address>
 
           </div>
+      </div>
+      <!-- Top bar right for mobile  -->
+      <div class="top-bar d-block d-lg-none">
+        <div class="credits-wrapper">
+          <ul class="credits-list">
+            <li class="top-bar__link">آموزش HTML</li>
+            <li class="top-bar__link">آموزش CSS</li>
+            <li class="top-bar__link">آموزش JAVASCRIPT</li>
+            <li class="top-bar__link">آموزش REACT</li>
+            <li class="top-bar__link">آموزش BOOTSTRAP</li>
+            <li class="top-bar__link">آموزش PYTHON</li>
+          </ul>
         </div>
       </div>
 

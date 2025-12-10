@@ -6,10 +6,53 @@
    -webkit-box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
    -moz-box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
    box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
+   height: 64px;
+   padding: 0;
   }
 
   .top-bar__right {
-    width: 100%;
-    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
   }
+
+  /* قاب نمایش */
+  .credits-wrapper {
+    height: 40px;            /* فقط یک لینک کامل دیده شود */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  /* لیست لینک‌ها */
+  .credits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* لینک‌ها */
+  .top-bar__link {
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    opacity: 0;               /* شروع نامرئی */
+  }
+
+  /* انیمیشن تیتراژ سینمایی */
+  @keyframes credits-scroll-fade {
+    0%   { transform: translateY(100%); }
+    10%  { opacity: 1; }       /* کم‌کم ظاهر می‌شود */
+    90%  { opacity: 1; }       /* باقی مدت کاملاً دیده می‌شود */
+    100% { transform: translateY(-100%); opacity: 0; }  /* بالا رفته و محو می‌شود */
+  }
+
+  .credits-list {
+    animation: credits-scroll-fade 12s linear infinite;
+  }
+
 }
