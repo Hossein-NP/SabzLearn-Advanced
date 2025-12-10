@@ -81,7 +81,7 @@
           <div class="top-bar__content d-flex justify-content-between">
 
             <!-- Top bar right  -->
-            <div class="top-bar__right d-flex align-items-center">
+            <div class="top-bar__right d-none d-lg-flex align-items-center">
               <ul class="top-bar__menu d-flex">
                 <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش HTML</a></li>
                 <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش CSS</a></li>
@@ -92,8 +92,20 @@
               </ul>
             </div>
 
+            <!-- Top bar right for mobile  -->
+            <div class="top-bar__right d-flex d-lg-none align-items-center">
+              <ul class="top-bar__menu d-flex align-items-center justify-content-center flex-column overflow-hidden">
+                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش HTML</a></li>
+                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش CSS</a></li>
+                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش JAVASCRIPT</a></li>
+                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش REACT</a></li>
+                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش BOOTSTRAP</a></li>
+                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش PYTHON</a></li>
+              </ul>
+            </div>
+
             <!-- Top bar left  -->
-            <address class="top-bar__contact-info d-flex align-items-center">
+            <address class="top-bar__contact-info d-flex align-items-center d-none d-lg-flex">
               <div class="top-bar__email d-flex align-items-center">
                 <a href="mailto:example@gmail.com" aria-label="ارسال ایمیل" class="top-bar__email--text top-bar__link">example@gmail.com</a>
                 <i class="fas fa-envelope top-bar__email--icon"></i>
