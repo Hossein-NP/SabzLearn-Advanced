@@ -1,3 +1,7 @@
+// Top bar animation handler
+import { menuItems } from "./topbar-animation-handler.js"; 
+console.log(menuItems)
+
 // Accordion handler
 const accordions = document.querySelectorAll('.course-accordion');
 

@@ -1,6 +1,6 @@
 /* Styles for top bar mobile section  */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
 
   .top-bar {
    -webkit-box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
@@ -10,49 +10,37 @@
    padding: 0;
   }
 
-  .top-bar__right {
-    margin: 0 auto;
+  .top-bar__menu-wrapper {
     height: 100%;
-  }
-
-  /* قاب نمایش */
-  .credits-wrapper {
-    height: 40px;            /* فقط یک لینک کامل دیده شود */
     overflow: hidden;
     position: relative;
-    width: 100%;
+  }
+  
+  .top-bar__menu {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
   }
 
-  /* لیست لینک‌ها */
-  .credits-list {
-    list-style: none;
+  .top-bar__items {
+    height: 100%;
     padding: 0;
-    margin: 0;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* لینک‌ها */
-  .top-bar__link {
-    display: block;
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-    font-size: 16px;
-    opacity: 0;               /* شروع نامرئی */
-  }
-
-  /* انیمیشن تیتراژ سینمایی */
+ 
   @keyframes credits-scroll-fade {
-    0%   { transform: translateY(100%); }
-    10%  { opacity: 1; }       /* کم‌کم ظاهر می‌شود */
-    90%  { opacity: 1; }       /* باقی مدت کاملاً دیده می‌شود */
-    100% { transform: translateY(-100%); opacity: 0; }  /* بالا رفته و محو می‌شود */
+    0%   { transform: translateY(64px); opacity: 0;}
+    5%   {opacity: 0.25;}
+    10%  {opacity: 0.4;}
+    15%  {opacity: 1;}
+    80%  {opacity: 1;}           
+    100% { transform: translateY(-384px); opacity: 0;}  
   }
 
-  .credits-list {
-    animation: credits-scroll-fade 12s linear infinite;
+  .top-bar__items-scroll {
+    animation: credits-scroll-fade 15s 0s linear infinite;
   }
-
 }
