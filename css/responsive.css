@@ -3,9 +3,9 @@
 @media only screen and (max-width: 991px) {
 
   .top-bar {
-   -webkit-box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
-   -moz-box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
-   box-shadow: 0px -37px 64px -26px rgba(0,0,0,0.75) inset;
+   -webkit-box-shadow: 0px -37px 64px -40px rgba(0,0,0,0.75) inset;
+   -moz-box-shadow: 0px -37px 64px -40px rgba(0,0,0,0.75) inset;
+   box-shadow: 0px -37px 64px -40px rgba(0,0,0,0.75) inset;
    height: 64px;
    padding: 0;
   }

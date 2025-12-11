@@ -1,7 +1,10 @@
 // Top bar animation handler
 const menuItems = document.querySelectorAll(".top-bar__items");
-menuItems.forEach(item =>{
-  
-})
+const menuBar = document.querySelector(".top-bar__menu");
 
-export {menuItems}
+function animationHandler() {
+  menuBar.classList.remove("top-bar__items-scroll")
+}
+menuBar.addEventListener("mouseenter" , animationHandler())
+
+export {menuItems, menuBar, animationHandler}
