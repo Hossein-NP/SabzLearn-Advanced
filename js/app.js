@@ -1,6 +1,6 @@
 // Top bar animation handler
-import { animationHandler } from "./topbar-animation-handler.js"; 
-console.log(animationHandler)
+// import { animationHandler } from "./topbar-animation-handler.js"; 
+// console.log(animationHandler)
 
 // Accordion handler
 const accordions = document.querySelectorAll('.course-accordion');

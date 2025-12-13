@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "DanaFaNum-DemiBold";
+  font-style: normal;
+  font-display: swap;
+  src: url(Fonts/Dana/woff2/DanaFaNum-DemiBold.woff2) format(woff2);
+}
+@font-face {
+  font-family: "DanaFaNum-Medium";
+  font-style: normal;
+  font-display: swap;
+  src: url(Fonts/Dana/woff2/DanaFaNum-Medium.woff2) format(woff2);
+}
+@font-face {
+  font-family: "DanaFaNum-Regular";
+  font-style: normal;
+  font-display: swap;
+  src: url(Fonts/Dana/woff2/DanaFaNum-Regular.woff2) format(woff2);
+}
+@font-face {
+  font-family: "Morabba-Bold";
+  font-style: normal;
+  font-display: swap;
+  src: url(Fonts/Morabba/woff2/Morabba-Bold.woff2) format(woff2);
+}
+@font-face {
+  font-family: "Morabba-Light";
+  font-style: normal;
+  font-display: swap;
+  src: url(Fonts/Morabba/woff2/Morabba-Light.woff2) format(woff2);
+
+}
+@font-face {
+  font-family: "Morabba-Medium";
+  font-style: normal;
+  font-display: swap;
+  src: url(Fonts/Morabba/woff2/Morabba-Medium.woff2) format(woff2);
+
+}
+
+@theme {
+  /* Fonts classes  */
+  --font-dana-bold: DanaFaNum-DemiBold;
+  --font-dana-medium: DanaFaNum-Medium;
+  --font-dana-regular: DanaFaNum-Regular;
+  --font-morabbe-bold: Morabba-Bold;
+  --font-morabbe-medium: Morabba-Medium;
+  --font-morabbe-regular: Morabba-Light;
+}
