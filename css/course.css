@@ -352,7 +352,7 @@
 }
 
 .sidebar-info {
-  padding: 1.5rem;
+  padding: 2rem;
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
   border-radius: 0.5rem;
   border: 1px solid var(--color-gray-400);
@@ -363,7 +363,7 @@
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: var(--white-color);
-  padding: 1rem;
+  padding: 2rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
