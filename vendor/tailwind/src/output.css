@@ -7,11 +7,15 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-gray-100: oklch(96.7% 0.003 264.542);
+    --color-amber-700: oklch(55.5% 0.163 48.998);
+    --color-yellow-300: oklch(90.5% 0.182 98.111);
+    --color-green-500: oklch(72.3% 0.219 149.579);
+    --color-green-700: #1eb35b;
+    --color-gray-200: oklch(92.8% 0.006 264.531);
+    --color-gray-900: oklch(21% 0.034 264.665);
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --font-dana-bold: DanaFaNum-DemiBold;
     --font-dana-medium: DanaFaNum-Medium;
   }
 }
@@ -164,8 +168,20 @@
   }
 }
 @layer utilities {
-  .block {
-    display: block;
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .top-36 {
+    top: calc(var(--spacing) * 36);
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
   }
   .flex {
     display: flex;
@@ -176,33 +192,63 @@
   .table {
     display: table;
   }
+  .h-3 {
+    height: calc(var(--spacing) * 3);
+  }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
+  .h-28 {
+    height: calc(var(--spacing) * 28);
+  }
+  .h-36 {
+    height: calc(var(--spacing) * 36);
+  }
+  .h-\[178\] {
+    height: 178;
+  }
+  .h-\[178px\] {
+    height: 178px;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .w-\[10\%\] {
+    width: 10%;
+  }
+  .w-\[90\%\] {
+    width: 90%;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
   .resize {
     resize: both;
   }
-  .items-center {
-    align-items: center;
-  }
-  .justify-between {
-    justify-content: space-between;
-  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-gray-100 {
-    background-color: var(--color-gray-100);
+  .bg-amber-700 {
+    background-color: var(--color-amber-700);
   }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
   }
-  .px-5 {
-    padding-inline: calc(var(--spacing) * 5);
+  .bg-gray-900 {
+    background-color: var(--color-gray-900);
   }
-  .font-dana-bold {
-    font-family: var(--font-dana-bold);
+  .bg-green-500 {
+    background-color: var(--color-green-500);
+  }
+  .bg-green-700 {
+    background-color: var(--color-green-700);
+  }
+  .bg-yellow-300 {
+    background-color: var(--color-yellow-300);
   }
   .font-dana-medium {
     font-family: var(--font-dana-medium);
@@ -214,15 +260,13 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .lg\:block {
-    @media (width >= 64rem) {
-      display: block;
-    }
+}
+@layer utilities {
+  .clip-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
   }
-  .lg\:hidden {
-    @media (width >= 64rem) {
-      display: none;
-    }
+  .clip-polygon2 {
+    clip-path: polygon(0 0, 100% 0, 100% 36%, 50% 70%, 0% 36%);
   }
 }
 @font-face {

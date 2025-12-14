@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
+    "tailwind-clip-path": "^1.0.0",
     "tailwindcss": "^4.1.18"
   },
   "scripts": {
-    "build" : "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   }
 }

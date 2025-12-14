@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سبزلرن | صفحه اصلی</title>
     <link rel="shortcut icon" href="images/icons/cropped-128px-1-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/variables.css">
-    <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="output.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
   </head>
-  <body class="bg-gray-100 font-dana-medium">
+  <body class="h-screen bg-gray-200 font-dana-medium ">
 
     <svg class="hidden">
       <symbol id="minutes"  fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  x="0px" y="0px" viewBox="0 0 511.992 511.992" style="enable-background:new 0 0 511.992 511.992;" xml:space="preserve" width="80" height="80">
@@ -76,46 +73,21 @@
     <header class="header">
 
       <!-- Top Bar  -->
-      <section class="top-bar hidden lg:block p-5">
-        <div class="top-bar__content flex items-center justify-between">
-          <!-- Top bar right  -->
-          <div class="top-bar__right d-none d-lg-flex align-items-center">
-              <ul class="top-bar__menu d-flex">
-                <li class="top-bar__items"><a href="#" class="top-bar__link font-dana-bold">آموزش HTML</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش CSS</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش JAVASCRIPT</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش REACT</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش BOOTSTRAP</a></li>
-                <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش PYTHON</a></li>
-              </ul>
+      <section class="top-bar h-16 mt-2">
+          <div class="top-bar__content relative flex w-[90%] h-full mx-auto">
+            <!-- Top bar right side  -->
+            <div class="top-bar__content-right w-[90%] h-full bg-green-700 ">
+
+            </div>
+            <!-- Top bar left side  -->
+            <div class="top-bar__content-left  w-[10%] h-[178px] bg-green-700 clip-polygon2">
+
+            </div>
           </div>
-          <!-- Top bar left  -->
-          <address class="top-bar__contact-info d-flex align-items-center hidden d-lg-flex">
-              <div class="top-bar__email d-flex align-items-center">
-                <a href="mailto:example@gmail.com" aria-label="ارسال ایمیل" class="top-bar__email--text top-bar__link">example@gmail.com</a>
-                <i class="fas fa-envelope top-bar__email--icon"></i>
-              </div>
-              <div class="top-bar__phone d-flex align-items-center">
-                <a href="tel:989038210478" aria-label="تماس تلفنی" class="top-bar__phone--text top-bar__link">+989038210478</a>
-                <i class="fas fa-phone top-bar__phone--icon"></i>
-              </div>
-          </address>
-        </div>
       </section>
 
       <!-- Top bar right for mobile  -->
-      <section class="top-bar block lg:hidden">
-        <div class="top-bar__menu-wrapper">
-          <ul class="top-bar__menu top-bar__items-scroll">
-            <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش HTML</a></li>
-            <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش CSS</a></li>
-            <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش JAVASCRIPT</a></li>
-            <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش REACT</a></li>
-            <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش BOOTSTRAP</a></li>
-            <li class="top-bar__items"><a href="#" class="top-bar__link">آموزش PYTHON</a></li>
-          </ul>
-        </div>
-      </section>
+      
 
     </header>
     <!-- End Header  -->

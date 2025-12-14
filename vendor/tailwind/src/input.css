@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@layer utilities {
+  /* Shapes  */
+  .clip-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
+  }
+  .clip-polygon2 {
+    clip-path: polygon(0 0, 100% 0, 100% 36%, 50% 70%, 0% 36%);
+  }
+}
+
 @font-face {
   font-family: "DanaFaNum-DemiBold";
   font-style: normal;
@@ -47,4 +57,13 @@
   --font-morabbe-bold: Morabba-Bold;
   --font-morabbe-medium: Morabba-Medium;
   --font-morabbe-regular: Morabba-Light;
+  /* Colors  */
+  --color-slate-900: #111826;
+  --color-slate-800: #242b3b;
+  --color-gray-50: #f1fcff;
+  --color-gray-500: #9ca3af;
+  --color-green-700: #1eb35b;
+  --color-yellow-500: #f59e0b;
+  /* Clip path  */
+  --clip-polygon: "polygon(0 0, 100% 0, 100% 100%, 80% 100%)"
 }
