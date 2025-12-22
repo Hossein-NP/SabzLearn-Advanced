@@ -6,7 +6,11 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
   }
   .clip-polygon2 {
-    clip-path: polygon(0 0, 100% 0, 100% 36%, 50% 70%, 0% 36%);
+    clip-path: polygon(0 0, 100% 0, 100% 36%, 50% 55%, 0% 36%);
+  }
+  .top-bar__bg-linear {
+    background: #242C3B;
+    background: linear-gradient(180deg, #242C3B, #242D3B66);
   }
 }
 
@@ -64,6 +68,5 @@
   --color-gray-500: #9ca3af;
   --color-green-700: #1eb35b;
   --color-yellow-500: #f59e0b;
-  /* Clip path  */
-  --clip-polygon: "polygon(0 0, 100% 0, 100% 100%, 80% 100%)"
+  /* --shadow-solid: -10px 5px 0 -1px rgba(0, 0, 0, 1); */
 }

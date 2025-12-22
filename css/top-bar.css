@@ -1,7 +1,8 @@
 /* Start Top Bar Styles  */
 
 .top-bar {
-  background-color: var(--primary-color);
+  background: #1EB35B;
+  background: linear-gradient(0deg, rgba(30, 179, 91, 0.62) 0%, rgba(30, 179, 91, 1) 30%);
   padding: 2rem 0;
 }
 
