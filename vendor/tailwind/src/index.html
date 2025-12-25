@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,11 +37,24 @@
 
     <!-- (*_*)============[Start Top Bar]-->
     <section class="top-bar h-16 bg-slate-800">
-      <div class="container mx-auto h-full">
+      <div class="container mx-auto h-16">
         <div
           class="top-bar__content flex justify-between items-center h-full text-white"
         >
+          <div class="top-bar__content-right h-full">
+            <div class="top-bar__content-social"></div>
+            <div class="top-bar__content-contact"></div>
+          </div>
           <div class="top-bar__content-left h-full flex items-center">
+            <div class="top-bar__content-frame h-full max-w-60 ml-2 overflow-hidden">
+              <ul id="commentsTicker" class="top-bar__comments animate-slider h-auto w-full relative top-16 [&>li]:h-full [&>li]:leading-16 [&>li>a]:block [&>li>a]:w-full [&>li>a]:truncate">
+                <li class="top-bar__comments-lin animate-fade"><a href="#" class="top-bar__comments-links"><span>user1: </span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و </a></li>
+                <li class="top-bar__comments-lin animate-fade hidden"><a href="#" class="top-bar__comments-links"><span>user2: </span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و </a></li>
+                <li class="top-bar__comments-lin animate-fade hidden"><a href="#" class="top-bar__comments-links"><span>user3: </span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و </a></li>
+                <li class="top-bar__comments-lin animate-fade hidden"><a href="#" class="top-bar__comments-links"><span>user4: </span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و </a></li>
+                <li class="top-bar__comments-lin animate-fade hidden"><a href="#" class="top-bar__comments-links"><span>user5: </span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و </a></li>
+              </ul>
+            </div>
             <div
               class="top-bar__content-icon bg-green-600 h-full w-16 flex items-center justify-center cursor-pointer"
             >
@@ -49,19 +62,6 @@
                 <use xlink:href="#comment-icon"></use>
               </svg>
             </div>
-            <div class="top-bar__content-frame max-w-60 ml-2">
-              <ul class="top-bar__comments h-full overflow-hidden w-full flex flex-col [&ul>li>a]:truncate">
-                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
-                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
-                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
-                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
-                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="top-bar__content-right">
-            <div class="top-bar__content-social"></div>
-            <div class="top-bar__content-contact"></div>
           </div>
         </div>
       </div>
@@ -71,5 +71,7 @@
     <!-- (*_*)============[Start Header]-->
 
     <!-- (-_-)============[End Header]-->
+    
+    <!-- Scripts  -->
   </body>
 </html>
