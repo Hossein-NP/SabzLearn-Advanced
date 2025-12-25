@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>سبزلرن | صفحه اصلی</title>
-    <link rel="shortcut icon" href="images/icons/cropped-128px-1-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="output.css">
+    <link
+      rel="shortcut icon"
+      href="images/icons/cropped-128px-1-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="output.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/index.css" />
   </head>
-  <body class="h-screen bg-gray-50 font-dana-medium ">
-
+  <body class="h-screen bg-gray-50 font-dana-medium">
     <!-- (*_*)============[Svg]-->
     <svg class="hidden">
-      <symbol id="Huge-icon_education_solid_book" data-name="Huge-icon/education/solid/book" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path id="Combo_shape" data-name="Combo shape" d="M9.25,2.378A16.774,16.774,0,0,0,1.994.011,1.849,1.849,0,0,0,0,1.935V13.2a2.225,2.225,0,0,0,1.994,2.172A16.775,16.775,0,0,1,9.25,17.739Zm1.5,15.361a16.775,16.775,0,0,1,7.256-2.367A2.225,2.225,0,0,0,20,13.2V1.935A1.848,1.848,0,0,0,18.006.011,16.774,16.774,0,0,0,10.75,2.378ZM2.259,5.14a.75.75,0,0,1,.856-.626A20.331,20.331,0,0,1,7.271,5.588a.75.75,0,1,1-.541,1.4A18.839,18.839,0,0,0,2.885,6,.75.75,0,0,1,2.259,5.14Zm.856,3.374A.75.75,0,0,0,2.885,10c.619.1,1.273.224,1.931.39a.75.75,0,0,0,.367-1.454C4.474,8.752,3.775,8.616,3.115,8.513Z" transform="translate(2 3)" fill="#28303f" fill-rule="evenodd"/>
+      <symbol
+        id="comment-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="size-6"
+      >
+        <path
+          d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"
+        />
+        <path
+          d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"
+        />
       </symbol>
-
     </svg>
 
     <!-- (*_*)============[Start Top Bar]-->
-      <section class="top-bar h-16 bg-slate-800">
-        <div class="container mx-auto h-full ">
-          <div class="top-bar__content">
-            <div class="top-bar__content-left">
-              <div class="top-bar__content-icon">
-                <svg class="top-bar__content-icon-svg w-6 h-6">
-                  <use xlink:href="#Huge-icon_education_solid_book"></use>
-                </svg>
-              </div>
-              <div class="top-bar__content-frame"></div>
+    <section class="top-bar h-16 bg-slate-800">
+      <div class="container mx-auto h-full">
+        <div
+          class="top-bar__content flex justify-between items-center h-full text-white"
+        >
+          <div class="top-bar__content-left h-full flex items-center">
+            <div
+              class="top-bar__content-icon bg-green-600 h-full w-16 flex items-center justify-center cursor-pointer"
+            >
+              <svg class="top-bar__content-icon-svg w-6 h-6">
+                <use xlink:href="#comment-icon"></use>
+              </svg>
             </div>
-            <div class="top-bar__content-right">
-              <div class="top-bar__content-social"></div>
-              <div class="top-bar__content-contact"></div>
+            <div class="top-bar__content-frame max-w-60 ml-2">
+              <ul class="top-bar__comments h-full overflow-hidden w-full flex flex-col [&ul>li>a]:truncate">
+                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
+                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
+                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
+                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
+                <li class="top-bar__comments-link"><a href="#" class="top-bar__comments-links">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque cum molestias. Esse odit omnis ullam culpa eius repudiandae porro?</a></li>
+              </ul>
             </div>
           </div>
+          <div class="top-bar__content-right">
+            <div class="top-bar__content-social"></div>
+            <div class="top-bar__content-contact"></div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- (-_-)============[End Top Bar]-->
 
     <!-- (*_*)============[Start Header]-->
 
     <!-- (-_-)============[End Header]-->
-
   </body>
 </html>
