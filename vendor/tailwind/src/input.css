@@ -12,16 +12,6 @@
     background: #242C3B;
     background: linear-gradient(180deg, #242C3B, #242D3B66);
   }
-  /* Animation blur  */
-  .animate-blur {
-  animation: blur 5s ease-in-out infinite;
-  animation-delay: var(--delay, 0s);
-  }
-  @keyframes blur {
-    0% { filter: blur(2px); }
-    10% {  filter: blur(1px); }
-    100% {  filter: blur(0); }
-  }
 }
 
 @font-face {
