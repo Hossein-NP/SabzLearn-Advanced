@@ -209,6 +209,9 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .size-6 {
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
@@ -247,6 +250,9 @@
   .max-w-60 {
     max-width: calc(var(--spacing) * 60);
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
@@ -256,14 +262,23 @@
   .cursor-pointer {
     cursor: pointer;
   }
+  .resize {
+    resize: both;
+  }
   .items-center {
     align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-evenly {
+    justify-content: space-evenly;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -283,6 +298,10 @@
   }
   .overflow-hidden {
     overflow: hidden;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .bg-gray-50 {
     background-color: var(--color-gray-50);
@@ -308,16 +327,47 @@
   .text-white {
     color: var(--color-white);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .opacity-0 {
     opacity: 0%;
   }
   .opacity-100 {
     opacity: 100%;
   }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
+  .backdrop-filter {
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .sm\:flex {
+    @media (width >= 40rem) {
+      display: flex;
+    }
+  }
+  .md\:flex {
+    @media (width >= 48rem) {
+      display: flex;
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .xl\:flex {
+    @media (width >= 80rem) {
+      display: flex;
+    }
   }
   .\[\&\>a\]\:relative {
     &>a {
@@ -388,9 +438,29 @@
       transition-duration: 300ms;
     }
   }
+  .\[\&\>a\[data-social\=instagram\]\:hover\>span\]\:fill-pink-500 {
+    &>a[data-social=instagram]:hover>span {
+      fill: var(--color-pink-500);
+    }
+  }
+  .\[\&\>a\[data-social\=instagram\]\:hover\>span\]\:text-pink-500 {
+    &>a[data-social=instagram]:hover>span {
+      color: var(--color-pink-500);
+    }
+  }
   .\[\&\>a\[data-social\=instagram\]\:hover\>svg\]\:fill-pink-500 {
     &>a[data-social=instagram]:hover>svg {
       fill: var(--color-pink-500);
+    }
+  }
+  .\[\&\>a\[data-social\=linkedin\]\:hover\>span\]\:fill-blue-600 {
+    &>a[data-social=linkedin]:hover>span {
+      fill: var(--color-blue-600);
+    }
+  }
+  .\[\&\>a\[data-social\=linkedin\]\:hover\>span\]\:text-blue-600 {
+    &>a[data-social=linkedin]:hover>span {
+      color: var(--color-blue-600);
     }
   }
   .\[\&\>a\[data-social\=linkedin\]\:hover\>svg\]\:fill-blue-600 {
@@ -398,9 +468,29 @@
       fill: var(--color-blue-600);
     }
   }
+  .\[\&\>a\[data-social\=twitter\]\:hover\>span\]\:fill-sky-400 {
+    &>a[data-social=twitter]:hover>span {
+      fill: var(--color-sky-400);
+    }
+  }
+  .\[\&\>a\[data-social\=twitter\]\:hover\>span\]\:text-sky-400 {
+    &>a[data-social=twitter]:hover>span {
+      color: var(--color-sky-400);
+    }
+  }
   .\[\&\>a\[data-social\=twitter\]\:hover\>svg\]\:fill-sky-400 {
     &>a[data-social=twitter]:hover>svg {
       fill: var(--color-sky-400);
+    }
+  }
+  .\[\&\>a\[data-social\=youtube\]\:hover\>span\]\:fill-red-600 {
+    &>a[data-social=youtube]:hover>span {
+      fill: var(--color-red-600);
+    }
+  }
+  .\[\&\>a\[data-social\=youtube\]\:hover\>span\]\:text-red-600 {
+    &>a[data-social=youtube]:hover>span {
+      color: var(--color-red-600);
     }
   }
   .\[\&\>a\[data-social\=youtube\]\:hover\>svg\]\:fill-red-600 {
@@ -460,7 +550,7 @@
     width: auto;
     height: auto;
     padding: 0.3rem;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     border-radius: 0.3rem;
     background-color: hsla(221, 39%, 11%, 0.5);
     -webkit-backdrop-filter: blur(5px);
@@ -541,6 +631,47 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-backdrop-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-sepia {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -582,6 +713,16 @@
       --tw-skew-y: initial;
       --tw-divide-x-reverse: 0;
       --tw-border-style: solid;
+      --tw-outline-style: solid;
+      --tw-backdrop-blur: initial;
+      --tw-backdrop-brightness: initial;
+      --tw-backdrop-contrast: initial;
+      --tw-backdrop-grayscale: initial;
+      --tw-backdrop-hue-rotate: initial;
+      --tw-backdrop-invert: initial;
+      --tw-backdrop-opacity: initial;
+      --tw-backdrop-saturate: initial;
+      --tw-backdrop-sepia: initial;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
