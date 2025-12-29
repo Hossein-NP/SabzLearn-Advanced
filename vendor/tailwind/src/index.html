@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="CSS/index.css" />
   </head>
-  <body class="h-screen bg-gray-50 font-dana-medium">
+  <body class="h-screen relative bg-gray-50 font-dana-medium">
     <!-- (*_*)============[Svg]-->
     <svg class="hidden">
       <symbol
@@ -119,16 +119,16 @@
     </svg>
 
     <!-- (*_*)============[Start Top Bar]-->
-    <section class="top-bar h-16 bg-slate-800">
+    <section class="top-bar absolute left-0 right-0 z-1021 h-16 w-[90%] mx-auto mt-9 rounded-lg shadow-custom1 bg-slate-800/50 backdrop-blur-lg">
       <div class="container mx-auto h-16">
         <div
-          class="top-bar__content flex justify-around items-center h-full text-white"
+          class="top-bar__content flex justify-between items-center h-full text-white"
         >
           <div
             class="top-bar__content-right flex items-center h-full [&>div]:h-full"
           >
             <div
-              class="top-bar__content-social hidden xl:flex items-center h-[50%] divide-x-2 divide-green-600 pl-2 [&>a]:px-2 [&>a]:size-12 [&>a]:relative [&>a]:flex [&>a]:items-center [&>a]:justify-center [&>a]:rounded-full [&>a]:transition [&>a>svg]:fill-white [&>a>svg]:transition [&>a>svg]:duration-300 [&>a:hover>svg]:scale-110 [&>a[data-social=instagram]:hover>svg]:fill-pink-500 [&>a[data-social=instagram]:hover>span]:text-pink-500 [&>a[data-social=youtube]:hover>svg]:fill-red-600 [&>a[data-social=youtube]:hover>span]:text-red-600 [&>a[data-social=twitter]:hover>svg]:fill-sky-400 [&>a[data-social=twitter]:hover>span]:text-sky-400 [&>a[data-social=linkedin]:hover>svg]:fill-blue-600 [&>a[data-social=linkedin]:hover>span]:text-blue-600"
+              class="top-bar__content-social hidden xl:flex items-center h-[50%] divide-x-2 divide-orange-600 pl-2 [&>a]:px-2 [&>a]:size-12 [&>a]:relative [&>a]:flex [&>a]:items-center [&>a]:justify-center [&>a]:rounded-full [&>a]:transition [&>a>svg]:fill-white [&>a>svg]:transition [&>a>svg]:duration-300 [&>a:hover>svg]:scale-110 [&>a[data-social=instagram]:hover>svg]:fill-pink-500 [&>a[data-social=instagram]:hover>span]:text-pink-500 [&>a[data-social=youtube]:hover>svg]:fill-red-600 [&>a[data-social=youtube]:hover>span]:text-red-600 [&>a[data-social=twitter]:hover>svg]:fill-sky-400 [&>a[data-social=twitter]:hover>span]:text-sky-400 [&>a[data-social=linkedin]:hover>svg]:fill-blue-600 [&>a[data-social=linkedin]:hover>span]:text-blue-600"
             >
               <a href="#" data-social="instagram" aria-label="اینستاگرام"
                 ><svg class="w-6 h-6">
@@ -156,7 +156,7 @@
               </a>
             </div>
             <div
-              class="top-bar__content-contact  bg-green-600 hidden sm:flex items-center px-2"
+              class="top-bar__content-contact  bg-orange-600 hidden sm:flex items-center px-2"
             >
               <a
                 href="#"
@@ -216,7 +216,7 @@
               </ul>
             </div>
             <div
-              class="top-bar__content-icon bg-green-600 h-full w-16 flex items-center justify-center cursor-pointer"
+              class="top-bar__content-icon bg-orange-600 h-full w-16 flex items-center justify-center cursor-pointer"
             >
               <svg class="top-bar__content-icon-svg w-6 h-6">
                 <use xlink:href="#comment-icon"></use>
@@ -229,7 +229,12 @@
     <!-- (-_-)============[End Top Bar]-->
 
     <!-- (*_*)============[Start Header]-->
+    <header class="header sticky top-0 sm:h-140 md:h-152.5 lg:h-170 xl:h-175 w-full z-1000  bg-[image:var(--bg-header)] aspect-video  bg-cover bg-position-[50%] bg-no-repeat  rounded-sm ">
+      <div class="container mx-auto">
 
+      </div>
+    </header>
+    
     <!-- (-_-)============[End Header]-->
 
     <!-- Scripts  -->

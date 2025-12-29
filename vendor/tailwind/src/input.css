@@ -33,6 +33,9 @@
     opacity: 1;
     transform: scale(1.2);
   }
+  /* .bg-header {
+    background-image: url('./images/header-bg/bg-header.png');
+  } */
 }
 
 @font-face {
@@ -75,6 +78,7 @@
 }
 
 @theme {
+
   /* Fonts classes  */
   --font-dana-bold: DanaFaNum-DemiBold;
   --font-dana-medium: DanaFaNum-Medium;
@@ -82,14 +86,20 @@
   --font-morabbe-bold: Morabba-Bold;
   --font-morabbe-medium: Morabba-Medium;
   --font-morabbe-regular: Morabba-Light;
+
   /* Colors  */
   --color-slate-900: #111826;
   --color-slate-800: #242b3b;
   --color-gray-50: #f1fcff;
   --color-gray-500: #9ca3af;
-  --color-green-600: #1eb35b;
+  --color-orange-600: #FD682E;
   --color-yellow-500: #f59e0b;
-  /* --shadow-solid: -10px 5px 0 -1px rgba(0, 0, 0, 1); */
+
+  /* Shadow  */
+  --shadow-custom1:  0 5px 10px 0 rgba(0,0,0,0.2);
+  /* Bg  */
+  --bg-header: url('./images/header-bg/header-bg.png');
+
   /* Animations  */
   --animate-slider: slider 15s linear infinite;
   --animate-fade: fade 1s ease-in-out forwards;
