@@ -62,9 +62,6 @@ Through this project, the following concepts are practiced in depth:
 ---
 
 ## 📁 Project Structure
-
-
-│
 ├── assets/
 │ ├── fonts/
 │ ├── images/
