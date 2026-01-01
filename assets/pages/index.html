@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../images/fav/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../images/fav/favicon-16x16.png">
 </head>
-<body>
+<body class="bg-gray-200 dark:bg-slate-900 font-D-Regular">
   
   <!-- *-*~~~~~Svg~~~~~*-* -->
   <svg class="hidden">
+    <symbol id="main-logo" viewBox="0 0 75 56" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M35.301 40.7849L21.9942 47.7228L17.3597 44.9523V33.6787L35.301 40.7849Z" fill="#006537"/>
+      <path d="M70.8165 15.1381L35.2902 33.7011L0.783386 20.0358L36.3148 1.47498L70.8165 15.1381Z" fill="#006869"/>
+      <path d="M73.5618 41.9659L69.2779 46.0868L65.2703 41.6831L68.0197 39.0368L68.013 16.6019L70.8157 15.1373L70.8024 38.9335L73.5618 41.9659Z" fill="#006869"/>
+      <path d="M70.816 17.981L70.8113 24.4385L68.0152 26.0548L68.0134 19.4455L70.816 17.981Z" fill="#00524C"/>
+      <path d="M34.8443 55.3906L17.363 44.9551V43.9888L35.2907 40.7831L35.6176 41.5329L34.8443 55.3906Z" fill="#004B26"/>
+      <path d="M42.6614 29.8488L35.2762 33.7191L0.783081 20.036L36.3149 1.47498L42.6614 29.8488Z" fill="#00524C"/>
+      <path d="M70.816 15.1383L70.8113 18.642L68.0152 21.9024L68.0134 16.6029L70.816 15.1383Z" fill="#00322D"/>
+      <path d="M59.4634 28.1628V38.3783L34.8183 55.3842L21.9939 47.7232L59.4634 28.1628Z" fill="#1EB35B"/>
+    </symbol>
     <symbol id="phone" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"></path>
     </symbol>
@@ -540,6 +550,64 @@
     </symbol>
   </svg>
   <!-- -_-~~~~~Svg~~~~~-_- -->
+
+  <!-- *-*~~~~~Header~~~~~*-* -->
+  <nav class="navbar relative">
+    <!-- Container  -->
+    <div class="container mx-auto">
+
+        <!-- Right Side  -->
+        <div class="navbar__right">
+          <!-- Logo  -->
+          <div class="navbar__logo">
+            <a href="" title="Home" target="_blank" rel="noopener noreferrer">
+              <svg class="w-[74.26px] h-14">
+                <use href="#main-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <!-- Menu  -->
+          <ul class="navbar__menu">
+            <li class="navbar__menu-items"><a href="" target="_blank" title="Home" class="navbar__menu-item">دوره های آموزشی</a></li>
+            <li class="navbar__menu-items"><a href="" target="_blank" title="Courses" class="navbar__menu-item">همه دوره ها</a></li>
+            <li class="navbar__menu-items"><a href="" target="_blank" title="About Us" class="navbar__menu-item">مقالات</a></li>
+            <li class="navbar__menu-items"><a href="" target="_blank" title="Contact Us" class="navbar__menu-item">مشاوره برنامه نویسی</a></li>
+          </ul>
+        </div>
+
+        <!-- Left Side  -->
+        <div class="navbar__left">
+
+          <!-- Theme Toggle  -->
+          <div class="navbar__theme-icon">
+            <svg class="size-6">
+              <use href="#sun"></use>
+            </svg>
+          </div>
+
+          <!-- shopping Cart  -->
+          <button type="button"> <!--add label -->
+            <svg class="size-6">
+              <use href="#shopping-bag"></use>
+            </svg>
+          </button>
+
+          <!-- Login  -->
+          <div class="navbar__login">
+            <a href="#" title="login">
+              <svg class="size-6">
+                <use href="#user"></use>
+              </svg>
+              <span>ورود|عضویت</span>
+            </a>
+          </div>
+
+        </div>
+
+    </div>
+
+  </nav>
+  <!-- -_-~~~~~Header~~~~~-_- -->
 
 
 </body>
