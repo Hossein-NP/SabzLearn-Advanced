@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* Fonts  */
+@font-face {
+    font-family: 'Dana-Regular';
+    src: url('../assets/fonts/Dana-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Dana-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DanaDemiBold';
+    src: url('../assets/fonts/DanaDemiBold-Regular.woff2') format('woff2'),
+        url('../assets/fonts/DanaDemiBold-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DanaBold';
+    src: url('../assets/fonts/DanaBold-Bold.woff2') format('woff2'),
+        url('../assets/fonts/DanaBold-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DanaExtraBlack';
+    src: url('../assets/fonts/DanaExtraBlack-Regular.woff2') format('woff2'),
+        url('../assets/fonts/DanaExtraBlack-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DanaDemiBold-ExtraBold';
+    src: url('../assets/fonts/DanaDemiBold-ExtraBold.woff2') format('woff2'),
+        url('../assets/fonts/DanaDemiBold-ExtraBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DanaExtraBold';
+    src: url('../assets/fonts/DanaExtraBold-Regular.woff2') format('woff2'),
+        url('../assets/fonts/DanaExtraBold-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dana-Regular-normal';
+    src: url('../assets/fonts/Dana-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Dana-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DanaMedium-Regular-600';
+    src: url('../assets/fonts/DanaMedium-Regular.woff2') format('woff2'),
+        url('../assets/fonts/DanaMedium-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-Medium';
+    src: url('../assets/fonts/KalamehWebFaNumMedium-Regular.woff2') format('woff2'),
+        url('../assets/fonts/KalamehWebFaNumMedium-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KalamehWebFaNum-Bold';
+    src: url('../assets/fonts/KalamehWebFaNumSemiBold-Regular.woff2') format('woff2'),
+        url('../assets/fonts/KalamehWebFaNumSemiBold-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KalamehWebFaNum-Regular';
+    src: url('../assets/fonts/KalamehWebFaNum-Regular.woff2') format('woff2'),
+        url('../assets/fonts/KalamehWebFaNum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+
+  /* Fonts  */
+  --font-D-Regular: 'Dana-Regular';
+  --font-D-DemiBold: 'DanaDemiBold';
+  --font-D-Bold: 'DanaBold';
+  --font-D-EBlack: 'DanaExtraBlack';
+  --font-D-DBEBold: 'DanaDemiBold-ExtraBold';
+  --font-D-EXBold: 'DanaExtraBold';
+  --font-D-Regular-bold: 'Dana-Regular-normal';
+  --font-D-MRegular-600: 'DanaMedium-Regular-600';
+  --font-K-Medium: 'Kalameh-Medium';
+  --font-K-DemiBold: 'Kalameh-bold';
+  --font-K-Regular: 'Kalameh-Regular';
+
+  /* Colors  */
+  --color-primary: rgba(30, 179, 91, 1);
+  --color-gray-chateau: rgba(156, 163, 175, 1);
+  --color-oxford-blue: rgba(55, 65, 81, 1);
+  --color-ebony: rgba(17, 24, 39, 1);
+  --color-buttercup: rgba(245, 158, 11, 1);
+}
+
