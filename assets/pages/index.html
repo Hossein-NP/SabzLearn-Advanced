@@ -551,32 +551,36 @@
   </svg>
   <!-- -_-~~~~~Svg~~~~~-_- -->
 
-  <!-- *-*~~~~~Header~~~~~*-* -->
-  <nav class="navbar relative">
+  <!-- *-*~~~~~Navbar~~~~~*-* -->
+  <nav class="navbar h-25 max-w-7xl mx-auto [&>div]:h-full [&>div>div]:h-full">
+
     <!-- Container  -->
     <div class="container mx-auto">
 
+      <!-- Navbar Content  -->
+      <div class="navbar-content flex items-center justify-between">
+
         <!-- Right Side  -->
-        <div class="navbar__right">
+        <div class="navbar__right flex items-center">
           <!-- Logo  -->
-          <div class="navbar__logo">
-            <a href="" title="Home" target="_blank" rel="noopener noreferrer">
-              <svg class="w-[74.26px] h-14">
+          <div class="navbar__logo w-[74.26px] h-14">
+            <a href="" class="w-full h-full flex items-center justify-center" title="Home" target="_blank" rel="noopener noreferrer">
+              <svg class="h-full">
                 <use href="#main-logo"></use>
               </svg>
             </a>
           </div>
           <!-- Menu  -->
-          <ul class="navbar__menu">
-            <li class="navbar__menu-items"><a href="" target="_blank" title="Home" class="navbar__menu-item">دوره های آموزشی</a></li>
-            <li class="navbar__menu-items"><a href="" target="_blank" title="Courses" class="navbar__menu-item">همه دوره ها</a></li>
+          <ul class="navbar__menu flex items-center">
+            <li class="navbar__menu-items"><a href="" target="_blank" title="Courses" class="navbar__menu-item">دوره های آموزشی</a></li>
+            <li class="navbar__menu-items"><a href="" target="_blank" title="All Courses" class="navbar__menu-item">همه دوره ها</a></li>
             <li class="navbar__menu-items"><a href="" target="_blank" title="About Us" class="navbar__menu-item">مقالات</a></li>
             <li class="navbar__menu-items"><a href="" target="_blank" title="Contact Us" class="navbar__menu-item">مشاوره برنامه نویسی</a></li>
           </ul>
         </div>
 
         <!-- Left Side  -->
-        <div class="navbar__left">
+        <div class="navbar__left flex items-center">
 
           <!-- Theme Toggle  -->
           <div class="navbar__theme-icon">
@@ -604,10 +608,12 @@
 
         </div>
 
+      </div>
+
     </div>
 
   </nav>
-  <!-- -_-~~~~~Header~~~~~-_- -->
+  <!-- -_-~~~~~Navbar~~~~~-_- -->
 
 
 </body>
