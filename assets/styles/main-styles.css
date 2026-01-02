@@ -7,8 +7,8 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-green-600: oklch(62.7% 0.194 149.214);
-    --color-green-700: oklch(52.7% 0.154 150.069);
     --color-slate-900: oklch(20.8% 0.042 265.755);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-white: #fff;
@@ -171,6 +171,21 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .z-40 {
+    z-index: 40;
+  }
+  .z-50 {
+    z-index: 50;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -220,8 +235,35 @@
   .h-25 {
     height: calc(var(--spacing) * 25);
   }
+  .h-\[0px\] {
+    height: 0px;
+  }
+  .h-\[70vh\] {
+    height: 70vh;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[610px\] {
+    height: 610px;
+  }
+  .h-\[840px\] {
+    height: 840px;
+  }
+  .h-\[8400px\] {
+    height: 8400px;
+  }
   .h-full {
     height: 100%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .min-h-\[400px\] {
+    min-height: 400px;
+  }
+  .min-h-screen {
+    min-height: 100vh;
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
@@ -269,17 +311,44 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-amber-400 {
+    background-color: var(--color-amber-400);
+  }
   .bg-gray-200 {
     background-color: var(--color-gray-200);
   }
   .bg-primary {
     background-color: var(--color-primary);
   }
+  .bg-\[url\(\'\/assets\/images\/img\/hero-header\.webp\'\)\] {
+    background-image: url('/assets/images/img/hero-header.webp');
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-fixed {
+    background-attachment: fixed;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
   .fill-\[\#3a3a3a\] {
     fill: #3a3a3a;
   }
   .fill-\[\#5f5f5f\] {
     fill: #5f5f5f;
+  }
+  .object-contain {
+    object-fit: contain;
+  }
+  .object-top {
+    object-position: top;
   }
   .font-DanaDemiBold-Regular {
     font-family: var(--font-DanaDemiBold-Regular);
@@ -309,21 +378,9 @@
       }
     }
   }
-  .hover\:bg-green-700 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-green-700);
-      }
-    }
-  }
-  .hover\:bg-green-700\/50 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in srgb, oklch(52.7% 0.154 150.069) 50%, transparent);
-        @supports (color: color-mix(in lab, red, red)) {
-          background-color: color-mix(in oklab, var(--color-green-700) 50%, transparent);
-        }
-      }
+  .md\:h-\[80vh\] {
+    @media (width >= 48rem) {
+      height: 80vh;
     }
   }
   .lg\:gap-x-8 {
