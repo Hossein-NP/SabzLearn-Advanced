@@ -171,9 +171,6 @@
   }
 }
 @layer utilities {
-  .absolute {
-    position: absolute;
-  }
   .relative {
     position: relative;
   }
@@ -216,9 +213,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .size-6 {
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
@@ -235,35 +229,11 @@
   .h-25 {
     height: calc(var(--spacing) * 25);
   }
-  .h-\[0px\] {
-    height: 0px;
-  }
   .h-\[70vh\] {
     height: 70vh;
   }
-  .h-\[500px\] {
-    height: 500px;
-  }
-  .h-\[610px\] {
-    height: 610px;
-  }
-  .h-\[840px\] {
-    height: 840px;
-  }
-  .h-\[8400px\] {
-    height: 8400px;
-  }
   .h-full {
     height: 100%;
-  }
-  .h-screen {
-    height: 100vh;
-  }
-  .min-h-\[400px\] {
-    min-height: 400px;
-  }
-  .min-h-screen {
-    min-height: 100vh;
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
@@ -283,14 +253,8 @@
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .items-center {
     align-items: center;
@@ -307,10 +271,6 @@
   .gap-x-3 {
     column-gap: calc(var(--spacing) * 3);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .bg-amber-400 {
     background-color: var(--color-amber-400);
   }
@@ -319,24 +279,6 @@
   }
   .bg-primary {
     background-color: var(--color-primary);
-  }
-  .bg-\[url\(\'\/assets\/images\/img\/hero-header\.webp\'\)\] {
-    background-image: url('/assets/images/img/hero-header.webp');
-  }
-  .bg-contain {
-    background-size: contain;
-  }
-  .bg-cover {
-    background-size: cover;
-  }
-  .bg-fixed {
-    background-attachment: fixed;
-  }
-  .bg-center {
-    background-position: center;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .fill-\[\#3a3a3a\] {
     fill: #3a3a3a;
@@ -356,20 +298,8 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
-  .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
   .hover\:bg-green-600 {
     &:hover {
@@ -556,16 +486,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -627,8 +547,6 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
-      --tw-border-style: solid;
-      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
