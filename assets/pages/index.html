@@ -558,10 +558,10 @@
     <div class="container mx-auto">
 
       <!-- Navbar Content  -->
-      <div class="navbar-content flex items-center justify-between">
+      <div class="navbar-content flex items-center justify-between text-white">
 
         <!-- Right Side  -->
-        <div class="navbar__right flex items-center">
+        <div class="navbar__right flex items-center h-14 gap-x-3 lg:gap-x-8">
           <!-- Logo  -->
           <div class="navbar__logo w-[74.26px] h-14">
             <a href="" class="w-full h-full flex items-center justify-center" title="Home" target="_blank" rel="noopener noreferrer">
@@ -571,7 +571,7 @@
             </a>
           </div>
           <!-- Menu  -->
-          <ul class="navbar__menu flex items-center">
+          <ul class="navbar__menu flex items-center gap-x-3 lg:gap-x-8  [&>li>a]:font-DanaDemiBold-Regular [&>li>a]:text-(length:--fs-normal)">
             <li class="navbar__menu-items"><a href="" target="_blank" title="Courses" class="navbar__menu-item">دوره های آموزشی</a></li>
             <li class="navbar__menu-items"><a href="" target="_blank" title="All Courses" class="navbar__menu-item">همه دوره ها</a></li>
             <li class="navbar__menu-items"><a href="" target="_blank" title="About Us" class="navbar__menu-item">مقالات</a></li>
@@ -580,7 +580,7 @@
         </div>
 
         <!-- Left Side  -->
-        <div class="navbar__left flex items-center">
+        <div class="navbar__left flex items-center justify-start gap-x-3 w-[291px] h-14">
 
           <!-- Theme Toggle  -->
           <div class="navbar__theme-icon">
@@ -590,21 +590,19 @@
           </div>
 
           <!-- shopping Cart  -->
-          <button type="button"> <!--add label -->
+          <button type="button" class=""> <!--add label -->
             <svg class="size-6">
               <use href="#shopping-bag"></use>
             </svg>
           </button>
 
           <!-- Login  -->
-          <div class="navbar__login">
-            <a href="#" title="login">
+            <a class="navbar__login bg-primary btn font-DanaDemiBold-Regular" href="#" title="login">
               <svg class="size-6">
                 <use href="#user"></use>
               </svg>
-              <span>ورود|عضویت</span>
+              <span class="mr-2">ورود | عضویت</span>
             </a>
-          </div>
 
         </div>
 
