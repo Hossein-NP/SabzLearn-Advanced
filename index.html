@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
 </head>
-<body class="bg-gray-200 dark:bg-slate-900 font-D-Regular">
+<body class="bg-gray-200 dark:bg-slate-900 font-D-Regular h-screen">
   
   <!-- *-*~~~~~Svg~~~~~*-* -->
   <svg class="hidden">
@@ -552,7 +552,7 @@
   <!-- -_-~~~~~Svg~~~~~-_- -->
 
   <!-- *-*~~~~~Header~~~~~*-* -->
-  <header class="header bg-amber-400 relative w-full">
+  <header class="header relative w-full xl:h-screen bg-[url('/assets/images/img/hero-header.webp')] bg-no-repeat bg-cover bg-center">
 
     <!-- *-*~~~~~Navbar~~~~~*-* -->
     <nav class="navbar relative z-50 h-25 max-w-7xl mx-auto [&>div]:h-full [&>div>div]:h-full" aria-label="Main navigation">
@@ -616,11 +616,25 @@
     </nav>
     <!-- -_-~~~~~Navbar~~~~~-_- -->
 
-    <img 
-    src="/assets/images/img/hero-header.webp" 
-    alt="Hero image" 
-    class=" relative z-40 top-0 w-full h-[70vh] md:h-[80vh] object-contain object-top"
-    >
+  <!-- *-*~~~~~Start Hero Header Section~~~~~*-* -->
+   <div class="hero-header">
+
+    <div class="container">
+
+      <!-- Hero Header Title  -->
+       <h1 class="hero-header__title"></h1>
+      <!-- Hero Header Caption  -->
+       <p class="hero-header__caption"></p>
+      <!-- Hero Header Search Bar  -->
+       <form action="" class="hero-header__search"></form>
+      <!-- Hero Header Figures  -->
+       
+    </div>
+
+   </div>
+  <!-- -_-~~~~~Finish Hero Header Section~~~~~-_- -->
+  
+    
   </header>
   <!-- -_-~~~~~Header~~~~~-_- -->
 
